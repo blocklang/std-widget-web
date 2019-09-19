@@ -1,6 +1,10 @@
 {
   "name": "std-widget-web",
-  "version": "1.0.0",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blocklang/std-widget-web.git"
+  },
   "scripts": {
     "dev": "dojo build --mode dev --watch --serve",
     "build": "dojo build --mode dist",
