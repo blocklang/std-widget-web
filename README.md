@@ -14,4 +14,7 @@ UI 组件 web 版，是 BlockLang 标准库。
 
 ```sh
 dojo build widget --mode dist --target lib
+
+# 或
+npm run build:widget
 ```
