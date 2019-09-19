@@ -1,2 +1,11 @@
 # std-widget-web
-【web】BlockLang 标准库之 UI 组件
+
+UI 组件 web 版，是 BlockLang 标准库。
+
+## Build
+
+本项目使用 dojo 的 `cli-build-widget` 命令构建。
+
+```sh
+dojo build widget --mode dist --target lib
+```
