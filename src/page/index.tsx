@@ -9,7 +9,11 @@ export interface PageProperties {
 export default class Page extends WidgetBase<PageProperties> {
     protected render() {
         return (
-            <div key="page" classes={[css.root]}>{this.children}</div>
+            <div key="page" classes={[this.getRootCssClass()]}>{this.children}</div>
         );
+    }
+
+    protected getRootCssClass(): string {
+        return css.root;
     }
 }
