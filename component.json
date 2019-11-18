@@ -1,5 +1,5 @@
 {
-    "name": "std-widgets-web",
+    "name": "std-widget-web",
     "version": "0.0.1",
     "displayName": "BlockLang standard widgets for web",
     "description": "BlockLang 的 web 版标准部件库",
