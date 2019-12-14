@@ -5,6 +5,7 @@
     "type": "git",
     "url": "https://github.com/blocklang/std-widget-web.git"
   },
+  "license": "MIT",
   "scripts": {
     "dev": "dojo build --mode dev --watch --serve",
     "build:dev": "dojo build --mode dev",
